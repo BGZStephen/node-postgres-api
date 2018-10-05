@@ -1,0 +1,11 @@
+{
+  "name": "node-postgres-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:BGZStephen/node-postgres-api.git",
+  "author": "Stephen Wright <stephen@getawriggleon.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "docker-compose up -d & nodemon ./app/app.js"
+  }
+}
